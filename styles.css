@@ -1,0 +1,93 @@
+body{
+  background-color:#98A6BD;
+  margin:0;
+  padding:0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+.main-content{
+  width: 40%;
+  border: 0 solid black;
+  margin: 7% auto;
+  padding:20px;
+  border-radius: 10px;
+}
+.top
+{
+  background-color: #E5EFF5;
+  padding:20px 0;
+  border-radius:10px 10px 0 0;
+}
+.top h1
+{
+  color:#7BB9B1;
+}
+.top h2
+{
+  color:#CCE040;
+}
+.top p
+{
+  color:#1e212d;
+}
+.bottom
+{
+  display:flex;
+}
+.bottom h2
+{
+  color:#9ede73;
+  font-weight:700;
+}
+.bottom-left
+{
+  background-color:#2AB2AF;
+  float:left;
+  border-radius:0 0 0 10px;
+  width:50%;
+   padding: 5% 7% 6% 7%;
+}
+.bottom-left p
+{
+  color:blanchedalmond;
+}
+.bottom-left p span{
+  font-size:1rem;
+  font-weight: 400;
+}
+.Price
+{
+  margin:0;
+  font-size:2.5rem;
+}
+.paragraph
+{
+  font-size:1rem;
+  font-weight:400;
+}
+.button
+{
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(204, 224, 64);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    font-size:1.2rem;
+    font-weight: 700;
+    justify-content: center;
+}
+.bottom-right
+{
+  background-color: #2BA6A4;
+  float:right;
+  width:50%;
+  border-radius:0 0 10px 0;
+  padding: 5% 7% 6% 7%;
+}
+.bottom-right p{
+  color:blanchedalmond;
+  line-height:1.5;
+}

@@ -1,0 +1,58 @@
+body{
+  background-color:#98ddca;
+  margin:0;
+  padding:0;
+  font-family: 'Merriweather', serif;
+}
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  font-size:1.5rem;
+  color:black;
+  background-color:white;
+}
+input[type=password]:focus {
+  background-color:white;
+  outline: none;
+}
+button{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+}
+button:hover {
+  opacity:1;
+}
+.content
+{
+  width: 40%;
+  border: 0 solid black;
+  margin: 7% auto;
+  padding:20px;
+  border-radius: 10px;
+  font-size:1.5rem;
+}
+.cancelbtn
+{
+  background-color:red;
+  font-size:1.2rem;
+  color:white;
+  font-weight:700;
+  padding: 14px 20px;
+  float:left;
+}
+.submitbtn
+{
+  background-color:blue;
+  font-size:1.2rem;
+  color:white;
+  font-weight:700;
+  float:left;
+}
